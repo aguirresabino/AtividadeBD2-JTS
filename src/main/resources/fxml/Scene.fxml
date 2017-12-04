@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="511.0" prefWidth="775.0" style="-fx-background-color: #DCDCDC;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ifpb.atividadebd.view.FXMLController">
+   <children>
+      <Label layoutX="14.0" layoutY="26.0" text="Geometria 1" />
+      <Label layoutX="14.0" layoutY="83.0" text="Geometria 2" />
+      <Line endX="100.0" layoutX="479.0" layoutY="320.0" rotate="90.0" startX="-200.0" />
+      <Label layoutX="515.0" layoutY="162.0" text="Geometria 1 | Geometria 2" />
+      <Label layoutX="479.0" layoutY="204.0" text="Contains" />
+      <Label layoutX="479.0" layoutY="233.0" text="Covers" />
+      <Label layoutX="479.0" layoutY="259.0" text="CoveredBy" />
+      <Label layoutX="479.0" layoutY="288.0" text="Crosses" />
+      <Label layoutX="479.0" layoutY="313.0" text="Disjoint" />
+      <Label layoutX="479.0" layoutY="342.0" text="Distance" />
+      <Label layoutX="479.0" layoutY="369.0" text="Overlaps" />
+      <Label layoutX="479.0" layoutY="397.0" text="Touches" />
+      <Label fx:id="lContains" layoutX="701.0" layoutY="204.0" text="-" />
+      <Label fx:id="lCovers" layoutX="701.0" layoutY="233.0" text="-" />
+      <Label fx:id="lCoveredBy" layoutX="701.0" layoutY="259.0" text="-" />
+      <Label fx:id="lCrosses" layoutX="701.0" layoutY="288.0" text="-" />
+      <Label fx:id="lDisjoint" layoutX="701.0" layoutY="313.0" text="-" />
+      <Label fx:id="lDistance" layoutX="701.0" layoutY="342.0" text="-" />
+      <Label fx:id="lOverlaps" layoutX="701.0" layoutY="369.0" text="-" />
+      <Label fx:id="lTouches" layoutX="701.0" layoutY="397.0" text="-" />
+      <TextField fx:id="tfGeometria1" layoutX="14.0" layoutY="44.0" prefHeight="26.0" prefWidth="611.0" />
+      <TextField fx:id="tfGeometria2" layoutX="14.0" layoutY="107.0" prefHeight="26.0" prefWidth="611.0" />
+      <Button fx:id="btOk" layoutX="650.0" layoutY="53.0" mnemonicParsing="false" onAction="#pressionaBotao" prefHeight="61.0" prefWidth="111.0" text="OK" />
+      <Label layoutX="479.0" layoutY="420.0" text="Within" />
+      <Label fx:id="lWithin" layoutX="701.0" layoutY="420.0" text="-" />
+      <WebView fx:id="geomView" layoutX="14.0" layoutY="156.0" prefHeight="336.0" prefWidth="406.0" />
+   </children>
+</AnchorPane>

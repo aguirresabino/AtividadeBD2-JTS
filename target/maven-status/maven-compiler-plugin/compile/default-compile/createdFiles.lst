@@ -1,0 +1,5 @@
+com/ifpb/atividadebd/factory/ImageFactory.class
+com/ifpb/atividadebd/factory/ViewBox.class
+com/ifpb/atividadebd/factory/SVGFactory.class
+com/ifpb/atividadebd/view/FXMLController.class
+com/ifpb/atividadebd/view/MainApp.class
